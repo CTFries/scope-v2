@@ -10,5 +10,13 @@ jobs:
       - image: cimg/node:lts
     steps:
       - checkout
-      - run: node --version
+      - run: 
+          name: Install deoebdebcues
+          command: yarn
+      - run:
+          name: Run tests
+          command: yarn test
+      - run:
+          name: Build
+          command: yarn build
 
