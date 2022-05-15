@@ -6,7 +6,7 @@ workflows:
         - newbuild
 jobs:
   newbuild:
-     docker:
+    docker:
       - image: cimg/node:lts
     steps:
       - checkout
