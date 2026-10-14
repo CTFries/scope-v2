@@ -4,7 +4,7 @@
 
 SCOPE is a discordJS bot that support the **Specific Calculation of Power (for) EiTS...** Or... more specifically, it's a discord bot that provides multiple functions to increase the decision making processes of players in [Visual-Utopia, _"A massively multi player strategy war game!"_ built in the early 2000s and rarely updated](https://visual-utopia.com).
 
-Built with ❤️ by [@CTFries](https://github.com/ctfries)
+Built with ❤️ by [@CTFries](https://github.com/ctfries) and [@LeviRoss2](https://github.com/LeviRoss2)
 
 ## What commands does SCOPE have, and how do they work?
 
