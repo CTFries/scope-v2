@@ -1,0 +1,48 @@
+# Dependencies - built in container
+
+node_modules
+
+# Git
+
+.git
+.gitignore
+
+# IDE/Editor
+
+.vscode
+.idea
+_.swp
+_.swo
+.claude
+
+# Environment and secrets
+
+.env
+.env.\*
+config.json
+
+# Runtime data - mounted as volumes
+
+bannedUsers.json
+bot_logs.db
+log.json
+\*.log
+
+# Development
+
+\_archivedCommands
+development
+devbuild.js
+nodemon.json
+.eslintrc.json
+
+# Documentation
+
+README.md
+LICENSE
+
+# Docker
+
+Dockerfile
+docker-compose.yml
+.dockerignore

@@ -1,0 +1,20 @@
+services:
+  scope-bot:
+    build: .
+    container_name: scope-v2
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Mount banned users list
+      - ./bannedUsers.json:/app/bannedUsers.json:ro
+      # Persist SQLite database
+      - ./bot_logs.db:/app/bot_logs.db
+      # Persist log file
+      - ./log.json:/app/log.json
+    healthcheck:
+      test: ["CMD", "pgrep", "-x", "node"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s

@@ -1,0 +1,9 @@
+node_modules
+log.json
+yarn.lock
+.env
+config.json
+remindLog.json
+HowToUse.txt
+bot_logs.db
+bannedUsers.json
